@@ -1,0 +1,42 @@
+        .contact-body {
+            font-family: Arial, sans-serif;
+            background-image: url('AR_spl24-1565.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; 
+            height: 100vh;
+            margin: 0;
+      
+        }
+        .contact-info {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 5%; /* Additional top margin to position it higher */
+        }
+
+        .gallery-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .back-link {
+            display: block;
+            margin-top: 20px; /* Spacing from the images */
+            text-align: center; /* Center the link horizontally */
+        }
